@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bra Size Calculator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+  <body>
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Bra Size Calculator</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="underbust">Underbust</label>
+            <input type="text" class="form-control" id="underbust" placeholder="80">
+          </div>
+          <div class="form-group">
+            <label for="bust">Bust</label>
+            <input type="text" class="form-control" id="bust" placeholder="85">
+          </div>
+          <button id="calc" class="btn btn-primary btn-block">Calculate</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+            <h1><span id="ukSize"><small>UK</small> xx X</span></h1>
+            <!--<h1><p class="text-center" id="deSize"><small>DE</small> 90 D</p></h1>-->
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-3">
+          <!-- Button trigger modal -->
+          
+          <h3>FAQ</h3>
+          <a data-toggle="modal" data-target="#faq_1">Question 1</a><br>
+          <a data-toggle="modal" data-target="#faq_2">Question 2</a>
+
+        </div>
+      </div>
+
+      <hr>
+      <p class="text-center">by @Detmud & @MamsellChaos</p>
+      <p class="text-center">Version 0.2.2</p>
+    </div> <!-- /container -->
+
+    <!-- Modal: FAQ; 1-->
+    <div class="modal fade" id="faq_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Question 1</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal: FAQ; 2-->
+    <div class="modal fade" id="faq_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Question 2</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+          
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uk_calculator.js"></script>
+
+  </body>
+</html>
