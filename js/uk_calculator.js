@@ -8,10 +8,13 @@ $(document).ready(function(){
 
 		if (($underbust >= 58) && ($underbust < 63)) {
 			$band = "26"
-			
-			if ($bust <= 62) {
+
+			if ($bust <= 59) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 62) {
+				$cup = "AAA";
 			}
 			else if ($bust <= 65) {
 				$cup = "AA";
@@ -79,14 +82,21 @@ $(document).ready(function(){
 			else if($bust <= 117) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 63) && ($underbust < 68)) {
 			$band = "28"
-	
-			if ($bust <= 67) {
+
+			if ($bust <= 65) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 67) {
+				$cup = "AAA";
 			}
 			else if ($bust <= 70) {
 				$cup = "AA";
@@ -154,14 +164,21 @@ $(document).ready(function(){
 			else if($bust <= 122) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 68) && ($underbust < 73)) {
 			$band = "30"
-	
-			if ($bust <= 72) {
+
+			if ($bust <= 70) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 72) {
+				$cup = "AAA";
 			}
 			else if ($bust <= 75) {
 				$cup = "AA";
@@ -229,14 +246,21 @@ $(document).ready(function(){
 			else if($bust <= 127) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 73) && ($underbust < 78)) {
 			$band = "32"
-			
-			if ($bust <= 77) {
+
+			if ($bust <= 75) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 77) {
+				$cup = "AAA";
 			}
 			else if ($bust <= 80) {
 				$cup = "AA";
@@ -304,14 +328,21 @@ $(document).ready(function(){
 			else if($bust <= 132) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 78) && ($underbust < 83)) {
 			$band = "34"
-			
-			if ($bust <= 82) {
+
+			if ($bust <= 80) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 82) {
+				$cup = "AAA";
 			}
 			else if($bust <= 85) {
 				$cup = "AA";
@@ -378,15 +409,22 @@ $(document).ready(function(){
 			}
 			else if($bust <= 137) {
 				$cup = "N";
+			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
 			}
 		}
 
 		if (($underbust >= 83) && ($underbust < 88)) {
 			$band = "34"
-			
-			if ($bust <= 82) {
+
+			if ($bust <= 80) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 82) {
+				$cup = "AAA";
 			}
 			else if($bust <= 85) {
 				$cup = "AA";
@@ -454,14 +492,21 @@ $(document).ready(function(){
 			else if($bust <= 137) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 88) && ($underbust < 93)) {
 			$band = "36"
-			
-			if ($bust <= 92) {
+
+			if ($bust <= 85) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 87) {
+				$cup = "AAA";
 			}
 			else if($bust <= 90) {
 				$cup = "AA";
@@ -529,14 +574,21 @@ $(document).ready(function(){
 			else if($bust <= 142) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 93) && ($underbust < 98)) {
 			$band = "38"
-			
-			if ($bust <= 92) {
+
+			if ($bust <= 90) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 92) {
+				$cup = "AAA";
 			}
 			else if($bust <= 95) {
 				$cup = "AA";
@@ -604,14 +656,21 @@ $(document).ready(function(){
 			else if($bust <= 147) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 98) && ($underbust < 103)) {
 			$band = "40"
-			
-			if ($bust <= 97) {
+
+			if ($bust <= 95) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 97) {
+				$cup = "AAA";
 			}
 			else if($bust <= 100) {
 				$cup = "AA";
@@ -679,14 +738,21 @@ $(document).ready(function(){
 			else if($bust <= 152) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 103) && ($underbust < 108)) {
 			$band = "42"
-			
-			if ($bust <= 102) {
+
+			if ($bust <= 100) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 102) {
+				$cup = "AAA";
 			}
 			else if($bust <= 105) {
 				$cup = "AA";
@@ -754,14 +820,21 @@ $(document).ready(function(){
 			else if($bust <= 157) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 108) && ($underbust < 113)) {
 			$band = "44"
-	
-			if ($bust <= 107) {
+
+			if ($bust <= 105) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 107) {
+				$cup = "AAA";
 			}
 			else if($bust <= 110) {
 				$cup = "AA";
@@ -829,14 +902,21 @@ $(document).ready(function(){
 			else if($bust <= 162) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 113) && ($underbust < 118)) {
 			$band = "46"
-			
-			if ($bust <= 112) {
+
+			if ($bust <= 110) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 112) {
+				$cup = "AAA";
 			}
 			else if($bust <= 115) {
 				$cup = "AA";
@@ -903,15 +983,22 @@ $(document).ready(function(){
 			}
 			else if($bust <= 167) {
 				$cup = "N";
+			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
 			}
 		}
 
 		if (($underbust >= 118) && ($underbust < 123)) {
 			$band = "46"
-			
-			if ($bust <= 112) {
+
+			if ($bust <= 110) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 112) {
+				$cup = "AAA";
 			}
 			else if($bust <= 115) {
 				$cup = "AA";
@@ -979,14 +1066,21 @@ $(document).ready(function(){
 			else if($bust <= 167) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 123) && ($underbust < 128)) {
 			$band = "48"
-	
-			if ($bust <= 117) {
+
+			if ($bust <= 115) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 117) {
+				$cup = "AAA";
 			}
 			else if($bust <= 120) {
 				$cup = "AA";
@@ -1054,14 +1148,21 @@ $(document).ready(function(){
 			else if($bust <= 172) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 128) && ($underbust < 133)) {
 			$band = "50"
-	
-			if ($bust <= 122) {
+
+			if ($bust <= 120) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 122) {
+				$cup = "AAA";
 			}
 			else if($bust <= 125) {
 				$cup = "AA";
@@ -1129,14 +1230,21 @@ $(document).ready(function(){
 			else if($bust <= 177) {
 				$cup = "N";
 			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
+			}
 		}
 
 		if (($underbust >= 128) && ($underbust < 133)) {
 			$band = "52"
-	
-			if ($bust <= 127) {
+
+			if ($bust <= 125) {
 				$cup = "Ô’";
 				$band = "ò";
+			}
+			else if ($bust <= 127) {
+				$cup = "AAA";
 			}
 			else if($bust <= 130) {
 				$cup = "AA";
@@ -1203,6 +1311,10 @@ $(document).ready(function(){
 			}
 			else if($bust <= 182) {
 				$cup = "N";
+			}
+			else {
+				$cup = "Ô’";
+				$band = "ò";
 			}
 		}
 
