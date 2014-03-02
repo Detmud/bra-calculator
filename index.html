@@ -31,15 +31,19 @@
 
       <div class="row">
         <div class="col-md-4">
+          <form id="braCalculator" target="#here">
+
           <div class="form-group">
             <label for="underbust">Underbust</label>
-            <input type="text" class="form-control" id="underbust" placeholder="80">
+            <input type="number" class="form-control" id="underbust" placeholder="80">
           </div>
           <div class="form-group">
             <label for="bust">Bust</label>
-            <input type="text" class="form-control" id="bust" placeholder="93">
+            <input type="number" class="form-control" id="bust" placeholder="93">
           </div>
           <button id="calc" class="btn btn-primary btn-block">Calculate</button>
+        </form>
+
         </div>
         <div class="col-md-1">
         </div>
@@ -100,6 +104,12 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uk_calculator.js"></script>
     <script src="js/de_calculator.js"></script>
+    
+    <script>
+      $('#braCalculator').submit(function () {
+       return false;
+      });
+    </script>
 
   </body>
 </html>
