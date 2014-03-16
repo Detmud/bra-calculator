@@ -12,7 +12,22 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Flattr Code -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script');
+        var t = document.getElementsByTagName('script')[0];
+    
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto&button=compact';
+    
+        t.parentNode.insertBefore(s, t);
+     })();
+    /* ]]> */
+    </script>
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -59,13 +74,27 @@
           <h3>FAQ</h3>
           <a data-toggle="modal" data-target="#faq_1">Question 1</a><br>
           <a data-toggle="modal" data-target="#faq_2">Question 2</a>
-
+          
+          <h3>Support</h3>
+          <!-- Flattr Button -->
+          <a class="FlattrButton" style="display:none;"
+              title="Magic Bra Size Calculator"
+              data-flattr-uid="mademoisellechaos"
+              data-flattr-tags="opensource"
+              data-flattr-category="software"
+              href="http://bra.detmud.me">
+          </a>
+          <br>
+          
+          <iframe src="http://ghbtns.com/github-btn.html?user=detmud&repo=bra-calculator&type=fork"
+          allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe>
+          
         </div>
       </div>
 
       <hr>
       <p class="text-center">by <a href="https://twitter.com/detmud" target="_blank">@Detmud</a> & <a href="https://twitter.com/mamsellchaos">@MamsellChaos</a></p>
-      <p class="text-center">Version 0.3.0</p>
+      <p class="text-center">Version 0.3.1</p>
     </div> <!-- /container -->
 
     <!-- Modal: FAQ; 1-->
@@ -97,6 +126,7 @@
         </div>
       </div>
     </div>
+    
           
     <!-- JavaScript
     ================================================== -->    
